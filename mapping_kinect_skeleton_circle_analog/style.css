@@ -1,0 +1,22 @@
+canvas {
+  outline: solid gray 1px;
+}
+label {
+  font-family: Arial;
+  font-size: .67em;
+  margin: 0 .1em 0 0;
+}
+
+input {
+  width: 200px;
+  margin-bottom: .25em;
+}
+
+/*#sidebar {
+  float: left;
+  width : 200px;
+}
+
+canvas {
+  float: right;
+}*/
