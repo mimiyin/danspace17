@@ -48,8 +48,6 @@ function setup() {
   quads[2] = new Quad(width, height / 2, PI, sounds[2]);
   quads[3] = new Quad(width / 2, height, 3 * PI / 2, sounds[3]);
 
-  pVel = createVector();
-
   // Number of movers
   // for (var m = 0; m < 1; m++) {
     movers[m] = new Mover(m);

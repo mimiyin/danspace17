@@ -31,7 +31,7 @@ var Sound = function (_sound, _s) {
 
   this.die = function () {
     lifespan--;
-    console.log(lifespan, sound.isPlaying(), volume);
+    //console.log(lifespan, sound.isPlaying(), volume);
     playSound();
   }
 

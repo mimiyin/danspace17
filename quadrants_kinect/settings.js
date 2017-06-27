@@ -1,5 +1,5 @@
 // Set up Kinect stuff
-var ips = ["192.168.1.2", "192.168.1.3", "192.168.1.5", "192.168.1.4"];
+var ips = ["192.168.1.4", "192.168.1.3", "192.168.1.5", "192.168.1.6"];
 //var ips = ["192.168.1.5", 192.168.1.3", "192.168.1.2"];
 var JOINT = "SPINEBASE";
 var SEL_JOINTS = [
@@ -12,7 +12,7 @@ var SHUSH_VOL_MIN = -1;
 
 // STRIKING
 var STR_JOINT = "HANDRIGHT"
-var STR_TH = 0.4;
+var STR_TH = 0.45;
 var STR_WAIT_TH = 60;
 
 // DEATH
@@ -22,10 +22,10 @@ var DEATH_TH = 100;
 var LOOP_WAIT_TH = 60;
 
 // SIZE
-var w = 40;
-var h = 36;
+var w = 39;
+var h = 34;
 
-var IS_ALL_QUAD_STRIKE = true;
+var IS_ALL_QUAD_STRIKE = false;
 
 // Joint names directory
 var JOINT_NAMES = [
