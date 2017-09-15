@@ -1,6 +1,7 @@
 /*
 Mimi Yin NYU-ITP
-Mapping Kinect Skeleton locations to floor projection.
+Sound & Movement Workshop
+Tisch-Danspace Residency 2017
  */
 
 // Set up the space
@@ -89,8 +90,8 @@ function setup() {
     }
   }
 
+  // Parse files
   function getFiles(event) {
-    // love the query selector
     var id = event.target.id;
     var cls = event.target.id;
     var files = event.target.files;
@@ -169,7 +170,6 @@ function draw() {
       shush[sh].loop();
     }
 
-    //console.log(shushVol, avgSpeed);
     shush[sh].setVolume(max(0, shushVol));
 
     // Remember shushVol
